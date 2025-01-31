@@ -34,7 +34,7 @@ class Book {
         for (i = 0; i < n; i++) {
             System.out.println("TITLE: " + title[i]);
             System.out.println("Author: " + author_name[i]);
-            System.out.println("ID no: " + isbn_no[i]);
+            System.out.println("ID no:  " + isbn_no[i]);
             System.out.println("Category: " + category[i]);
             System.out.println("Quantity: " + quantity[i]);
             System.out.println("");}
