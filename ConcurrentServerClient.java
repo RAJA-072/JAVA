@@ -6,7 +6,7 @@ public class ConcurrentServerClient {
     public static void main(String[] args) throws Exception {
         Socket socket = new Socket("localhost", 1234);
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter a number: ");
+        System.out.println("Enter a number : ");
         int count = input.nextInt();
 
         PrintStream outStream = new PrintStream(socket.getOutputStream(), true);
